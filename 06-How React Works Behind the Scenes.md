@@ -94,15 +94,15 @@ const buttonElement = React.createElement(Button, {
 It is possible to call React components directly, but this is not recommended. When you call a component directly, React no longer sees it as a component instance, and instead sees it as the raw output element. This can lead to problems such as violating the rules of hooks.
 
 **Rendering Context:**
-**<Component />** renders the component within the React rendering context.
+**<Component \/>** renders the component within the React rendering context.
 **Component()** calls the function directly outside of the React rendering context.
 
 **Lifecycle Management:**
-**<Component />** includes full React lifecycle management.
+**<Component \/>** includes full React lifecycle management.
 **Component()** does not trigger React lifecycle methods or hooks correctly.
 
 **Usage:**
-**<Component />** is the correct and recommended way to render components in JSX.
+**<Component \/>** is the correct and recommended way to render components in JSX.
 **Component()** should be avoided for rendering React components.
 
 Here is an example of how to call a component directly:
