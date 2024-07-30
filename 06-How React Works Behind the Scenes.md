@@ -138,6 +138,7 @@ It is also important to note that you should never call React components directl
 ### **Summary of the React rendering process**
 
 The React rendering process can be divided into three phases:
+![image](https://github.com/user-attachments/assets/a656f7c4-8950-4cbf-808b-6b67d4d7c840)
 
 1. **Triggering a render:** A render can be triggered in two ways:
     * The initial render of the application.
